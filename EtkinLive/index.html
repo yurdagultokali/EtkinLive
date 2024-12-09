@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EtkinLive</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="splash">
+        <h1 class="center">Keşfet! Katıl! Yaşa!</h1>
+        </div>
+    <div id="main" class="hidden">
+        <header>
+            <div class="logo">EtkinLive</div>
+            <nav class="main-nav">
+                <ul>
+                    <li id="contact">İletişim</li>
+                </ul>
+            </nav>
+        </header>
+        <main class="container">
+            <aside class="filters">
+                <div class="filter-group">
+                    <label for="filterType">Etkinlik Türü:</label>
+                    <select id="filterType">
+                        <option value="all">Tümü</option>
+                        <option value="Konser">Konser</option>
+                        <option value="Tiyatro">Tiyatro</option>
+                        <option value="Futbol Maçı">Futbol Maçı</option>
+                        <option value="Festival">Festival</option>
+                        <option value="Stand Up">Stand Up</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="filterCity">Şehir:</label>
+                    <select id="filterCity">
+                        <option value="all">Tümü</option>
+                        <option value="Adana">Adana</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="filterDistrict">İlçe:</label>
+                    <select id="filterDistrict">
+                        <option value="all">Tümü</option>
+                        <option value="Çukurova">Çukurova</option>
+                        <option value="Sarıçam">Sarıçam</option>
+                        <option value="Seyhan">Seyhan</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="filterPrice">Fiyat Durumu:</label>
+                    <select id="filterPrice">
+                        <option value="all">Tümü</option>
+                        <option value="Paid">Ücretli</option>
+                        <option value="Free">Ücretsiz</option>
+                    </select>
+                </div>
+            </aside>
+            <section class="events">
+                <h2>ETKİNLİKLER</h2>
+                <div class="events-container">
+                    <!-- Etkinlik kartları burada yer alacak -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <div id="detailsModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 id="modalTitle">Etkinlik Adı</h2>
+            <p id="modalAddress">Adres: ...</p>
+            <p id="modalTicket">Bilet Noktası: ...</p>
+            <button id="modalTicketButton" onclick="buyTicket()">Bilet Al</button>
+            <button id="modalMapButton" onclick="openMap()">Adresi Haritada Göster</button>
+        </div>
+    </div>
+
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>İletişim Bilgileri</h2>
+            <p>Destek, görüş ve önerilerinizi bizimle paylaşabilirsiniz. İyi Eğlenceler!</p>
+            <p>Email: destek@etkinlive.com</p>
+            <p>Telefon: +90 555 555 55 55</p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

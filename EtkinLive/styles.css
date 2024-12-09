@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    font-family: 'Arial', monospace;
+    background-color: white;
+    color: black;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 3em;
+    font-family: 'Arial Black', monospace;
+    background: white url('splash.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.hidden {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+header .logo {
+    font-family: 'Arial Black', monospace;
+    font-size: 1.5em;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.main-nav ul li {
+    margin: 0 10px;
+    cursor: pointer;
+    font-family: 'Arial Black', monospace;
+}
+
+.main-nav ul li:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.filters {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.filters .filter-group {
+    margin-bottom: 20px;
+}
+
+.filters label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Arial', monospace;
+}
+
+.filters select {
+    width: 100%;
+    padding: 5px;
+    font-family: 'Arial', monospace;
+}
+
+.events {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.events h2 {
+    font-family: 'Arial Black', monospace;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.events-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.event-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.event-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.event-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.event-card h3 {
+    font-family: 'Arial Black', monospace;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.event-card p {
+    font-family: 'Arial', monospace;
+    margin: 5px 0;
+}
+
+.event-card button {
+    padding: 10px 15px;
+    font-family: 'Arial Black', monospace;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.event-card button:hover {
+    background-color: #555;
+}
+
+.event-card img {
+    width: 100%;
+    max-width: 300px; /* İsteğinize göre bu değeri ayarlayın */
+    height: auto;
+    max-height: 200px; /* İsteğinize göre bu değeri ayarlayın */
+    object-fit: cover; /* Bu, resmin kutu içine sığmasını sağlar */
+    border-radius: 8px; /* Köşeleri yuvarlatmak için */
+    display: block;
+    margin: 0 auto; /* Resmi ortalar */
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid black;
+    width: 80%;
+}
+
+.close-button {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#splash {
+    background: url('splash_background.jpg') no-repeat center center;
+    background-size: cover;
+}
