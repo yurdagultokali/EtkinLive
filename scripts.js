@@ -32,18 +32,18 @@ document.addEventListener('DOMContentLoaded', () => {
     // Etkinlikleri içeren dizi
     const events = [
         {
-            title: "Nazan ÖNCEL",
+            title: "Hande YENER",
             type: "Konser",
-            date: "01.02.2025 Cumartesi",
+            date: "08.02.2025 Cumartesi",
             time: "21:00",
             price: "Paid",
             location: "Adana, Seyhan",
             venue: "Jolly Joker Adana",
-            image: "images/nazanoncel.jpg",
+            image: "images/handeyener.jpg",
             address: "Esas 01 Burda AVM, Adana",
             ticket: "Biletix",
             mapLink: "https://maps.app.goo.gl/Ff4ARenBMx5xsgFp9",
-            ticketLink: "https://www.biletix.com/performance/4JD05/001/TURKIYE/tr"
+            ticketLink: "https://www.biletix.com/etkinlik/4JD15/TURKIYE/tr"
         },
         {
             title: "Alisher Nazirov",
@@ -74,26 +74,26 @@ document.addEventListener('DOMContentLoaded', () => {
             ticketLink: "#"
         },
         {
-            title: "12 Numaralı Adam",
+            title: "7 Kocalı Hürmüz",
             type: "Tiyatro",
-            date: "17.01.2025 Cuma",
-            time: "20:30",
+            date: "21.02.2025 Cuma",
+            time: "19:30",
             price: "Paid",
             location: "Adana, Seyhan",
             venue: "01 Burda PGM Sahne",
-            image: "images/12numaraliadam.jpg",
+            image: "images/7kocalıhürmüz.jpg",
             address: "Esas 01 Burda AVM, Adana",
             ticket: "Biletix",
             mapLink: "https://maps.app.goo.gl/Refq9LhwmvB9WSPVA",
-            ticketLink: "https://www.biletix.com/etkinlik/4DFO3/TURKIYE/tr"
+            ticketLink: "https://www.biletix.com/performance/4RS18/001/TURKIYE/tr"
         },
         {
             title: "Yasemin Sakallıoğlu - Doğru Koca Nasıl Seçilir?",
             type: "Stand Up",
-            date: "19.12.2024 Perşembe",
+            date: "21.02.2025 Cuma",
             time: "20:00",
             price: "Paid",
-            location: "Adana, Seyhan",
+            location: "Adana, Sarıçam",
             venue: "ÇÜ Kongre Salonu",
             image: "images/yasemin.jpg",
             address: "Çukurova Üniversitesi, Adana",
@@ -102,9 +102,9 @@ document.addEventListener('DOMContentLoaded', () => {
             ticketLink: "https://www.biletix.com/etkinlik/35AU2/TURKIYE/tr"
         },
         {
-            title: "Adana Demirspor - Başakşehir",
+            title: "Adana Demirspor - Antalyaspor",
             type: "Futbol Maçı",
-            date: "05.01.2025 Pazar",
+            date: "16.02.2025 Pazar",
             time: "18:00",
             price: "Paid",
             location: "Adana, Sarıçam",
@@ -113,26 +113,26 @@ document.addEventListener('DOMContentLoaded', () => {
             address: "Yeni Adana Stadyumu Sarıçam, Adana",
             ticket: "Biletwise",
             mapLink: "https://maps.app.goo.gl/HjeDfu2jj1WEf8Gz7",
-            ticketLink: "https://www.biletwise.com/tr/adana-demirspor-basaksehir-fk-mac-biletleri/"
+            ticketLink: "https://www.biletwise.com/tr/adana-demirspor-antalyaspor-mac-biletleri/"
         },
         {
-            title: "Plastik Aşklar",
+            title: "Muhammed Ali",
             type: "Tiyatro",
-            date: "19.01.2025 Pazar",
+            date: "14.03.2025 Cuma",
             time: "20:00",
             price: "Paid",
             location: "Adana, Seyhan",
             venue: "01 Burda PGM Sahne",
-            image: "images/plastikasklar.jpg",
+            image: "images/muhammedali.jpg",
             address: "Esas 01 Burda AVM, Adana",
             ticket: "Biletix",
             mapLink: "https://maps.app.goo.gl/Refq9LhwmvB9WSPVA",
-            ticketLink: "https://www.biletix.com/etkinlik/4KYB0/TURKIYE/tr"
+            ticketLink: "https://www.biletix.com/performance/4BRTF/001/TURKIYE/tr"
         },
         {
             title: "Melek MOSSO",
             type: "Konser",
-            date: "18.01.2025 Cumartesi",
+            date: "04.04.2025 Cuma",
             time: "21:00",
             price: "Paid",
             location: "Adana, Seyhan",
@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
             time: "21:00",
             price: "Paid",
             location: "Adana, Seyhan",
-            venue: "Jolly Joker Adanak3.jpg",
+            venue: "Jolly Joker Adana",
             image: "images/gokhanturkmen.jpg",
             address: "Esas 01 Burda AVM, Adana",
             ticket: "Biletix",
